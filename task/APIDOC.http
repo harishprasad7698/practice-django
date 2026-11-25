@@ -1,0 +1,111 @@
+###
+POST http://127.0.0.1:8000/bmicalc/
+Content-Type: application/json
+
+{
+    "height":170,
+    "weight":50
+}
+
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "birth_year":2004,
+    "current_year":2026
+}
+
+###
+POST http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_marks":80,
+    "total_marks":100
+}
+
+###
+POST http://127.0.0.1:8000/si/
+Content-Type: application/json
+
+{
+    "principal":8000,
+    "rate":8,
+    "time":3
+}
+
+###
+POST http://127.0.0.1:8000/bill/
+Content-Type: application/json
+
+{
+    "price":150,
+    "units":8
+}
+
+###
+POST http://127.0.0.1:8000/discount/
+Content-Type: application/json
+
+{
+ "price": 2000,
+ "discount_percent": 10
+}
+
+###
+POST http://127.0.0.1:8000/profit/
+Content-Type: application/json
+
+{
+ "cost_price": 500,
+ "selling_price": 650
+}
+
+###
+POST http://127.0.0.1:8000/salary/
+Content-Type: application/json
+
+{
+ "basic_salary": 30000,
+ "bonus": 5000,
+ "deduction": 2000
+ }
+
+###
+POST http://127.0.0.1:8000/time/
+Content-Type: application/json
+
+{
+ "hours": 3
+}
+
+###
+POST http://127.0.0.1:8000/fuel/
+Content-Type: application/json
+
+{
+ "distance": 300,
+ "mileage": 15,
+ "fuel_price": 105
+ }
+
+###
+POST http://127.0.0.1:8000/product_profit/
+Content-Type: application/json
+
+{
+ "cost_price": 800,
+ "selling_price": 1000,
+ "quantity": 25
+}
+
+###
+POST http://127.0.0.1:8000/age-details/
+Content-Type: application/json
+
+{
+ "age": 25
+ }
+
+
